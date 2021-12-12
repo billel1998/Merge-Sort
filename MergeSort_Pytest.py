@@ -30,12 +30,6 @@ def mergeSort(myList):
             k += 1
 
 
-myList = [54, 26, 93, 17, 77, 31, 44, 55, 20]
-mergeSort(myList)
-print("The sorted Array is: ", myList)
-
-
-
 def test_Merge():
     """ Algorithm of  Merge sort  """
     size = randint(10, 10)
